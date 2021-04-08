@@ -3,13 +3,13 @@ import time
  
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login("brianyin09@gmail.com", "Brian!123")
+server.login("brianyin09@gmail.com", "******")
  
-msg = "Huaqi Yin is Awesome lazy!"
+msg = "Ms. Yin is Awesome lazy!"
 
 if __name__ == '__main__':
     while True:
-	server.sendmail("winston@elobal.com", "yinleew@gmail.com", msg)
+	server.sendmail("winston@winston.com", "winston@usa.com", msg)
 	server.quit()
         time.sleep(10)
 
